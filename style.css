@@ -1,0 +1,46 @@
+
+header {
+    background-color: rgb(245, 184, 215);
+    display: flex;
+    align-items: center;
+    height: 150px;
+    font-family: "Sacramento", sans-serif;
+}
+
+
+.logo {
+    margin-right: auto;
+    padding-left: 60px;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-right: 60px;
+}
+
+li {
+    padding: 0px 20px 0px 20px;
+}
+
+a {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.first-section {
+    display: flex;
+}
+.first-div-in-first-section {
+    padding: 100px;
+}
+
+.image-placeholder {
+    padding: 160px;
+}
