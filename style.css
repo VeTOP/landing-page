@@ -1,8 +1,10 @@
-body,html {
+* {
     margin:0;
     padding:0;
+    font-family: "Gaegu", sans-serif;
+    font-size: large;
   }
-  
+
 header {
     background-color: antiquewhite;
     display: flex;
@@ -30,7 +32,7 @@ li {
 }
 
 a {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
 }
 
@@ -38,16 +40,52 @@ li:hover {
     background-color: pink;
 }
 
+
+
+
 .first-section {
     display: flex;
+    background-color: pink;
 }
+
+h1 {
+    font-size: 70px;
+    font-family: "Sacramento", sans-serif;
+}
+
+
 .first-div-in-first-section {
-    padding: 100px;
+    padding: 100px 160px 100px 160px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(158, 137, 110);
+}
+
+button:hover {background-color: antiquewhite}
+
+button:active {
+  background-color: antiquewhite;
+  box-shadow: 0 5px rgb(88, 80, 70);
+  transform: translateY(4px);
 }
 
 .image-placeholder {
     padding: 160px;
 }
+
 
 
 
@@ -71,4 +109,13 @@ li:hover {
 	background-repeat: repeat-x;
 	background-position: 0 0, 15px 6px, 0 0, 25px 9px;
 	background-size: 30px 21px, 30px 21px, 30px 21px, 30px 20px;
+}
+
+
+
+
+.carlotta {
+    width:100%;
+    max-width:600px;
+    margin: 50px 90px 50px 50px;
 }
