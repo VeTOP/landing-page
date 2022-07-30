@@ -116,4 +116,32 @@ h1 {
 }
 
 
+.second {
+    background-color: antiquewhite;
+    padding-bottom: 130px;
+}
 
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.box-3 {
+    padding: 0px 300px 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ugh {
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    border: 30px solid pink;
+    border-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/pink-doily-bdr.png") 30;
+
+}
+
+.agh {
+    text-align: center;
+}
