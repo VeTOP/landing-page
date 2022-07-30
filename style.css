@@ -1,111 +1,115 @@
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-family: "Gaegu", sans-serif;
-    font-size: large;
-  }
+    font-size: 25px;
+    color: rgb(46, 34, 19);
+}
 
 header {
-    background-color: antiquewhite;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 150px;
-    font-family: "Sacramento", sans-serif;
+    background-color: pink;
 }
 
-
+nav {
+    padding-right: 15%;
+}
 .logo {
-    margin-right: auto;
-    padding-left: 60px;
-    
+    padding-top: 10px;
+    padding-left: 15%;
 }
-
 ul {
-    display: flex;
     list-style-type: none;
-    padding-right: 60px;
+    display: flex;
 }
 
 li {
-    padding: 47px 20px 47px 20px;
-    margin: 0px 10px 0px 10px;
-}
-
-a {
-    font-size: 30px;
-    text-decoration: none;
+    padding: 0px 20px 2px 20px;
 }
 
 li:hover {
-    background-color: pink;
+    /*font-size: 28px; this makes it move?*/
+    text-shadow: 2px 2px 5px rgb(194, 113, 127);
+}
+
+a {
+    text-decoration: none;
 }
 
 
-
-
-.first-section {
-    display: flex;
+.first {
+    padding: 100px 0px 100px 0px;
     background-color: pink;
+    display: flex;
+    justify-content: space-around;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 80px;
     font-family: "Sacramento", sans-serif;
 }
 
+/*
+.box-1 {
+    padding: 0px 50px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+*/
 
-.first-div-in-first-section {
-    padding: 100px 160px 100px 160px;
+
+
+.fb {
+    width: 35%;
 }
 
-button {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-top: 20px;
-  font-size: 15px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color:black;
-  background-color: antiquewhite;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(158, 137, 110);
+.sign-in-button {
+    max-width: 110px;
+
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(158, 137, 110);
+  }
+  
+  .sign-in-button:hover {background-color: antiquewhite}
+  
+  .sign-in-button:active {
+    background-color: antiquewhite;
+    box-shadow: 0 5px rgb(88, 80, 70);
+    transform: translateY(4px);
+  }
+
+.carlotta {
+    padding: 0px 50px 0px 100px;
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    max-height: 333px;
 }
-
-button:hover {background-color: antiquewhite}
-
-button:active {
-  background-color: antiquewhite;
-  box-shadow: 0 5px rgb(88, 80, 70);
-  transform: translateY(4px);
-}
-
-.image-placeholder {
-    padding: 160px;
-}
-
-
-
-
-
-
-
 
 .lace {
 	height: 70px;
-	background: pink;
+	background: antiquewhite;
 }
 
-
-
-
 .three  {
-	background-image: radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, #fff 15px, rgba(255,255,255,0) 16px),
-					radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, #fff 15px, rgba(255,255,255,0) 16px),
-					radial-gradient(circle at 15px 0, rgba(255,255,255,0) 4px, #fff 5px, rgba(255,255,255,0) 6px),
-					radial-gradient(circle at 5px 5px, rgba(255,255,255,0) 1px, #fff 2px, rgba(255,255,255,0) 3px);
+	background-image: radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, pink 15px, rgba(255,255,255,0) 16px),
+					radial-gradient(circle at 15px 0, rgba(255,255,255,0) 14px, pink 15px, rgba(255,255,255,0) 16px),
+					radial-gradient(circle at 15px 0, rgba(255,255,255,0) 4px, pink 5px, rgba(255,255,255,0) 6px),
+					radial-gradient(circle at 5px 5px, rgba(255,255,255,0) 1px, pink 2px, rgba(255,255,255,0) 3px);
 	background-repeat: repeat-x;
 	background-position: 0 0, 15px 6px, 0 0, 25px 9px;
 	background-size: 30px 21px, 30px 21px, 30px 21px, 30px 20px;
@@ -113,9 +117,3 @@ button:active {
 
 
 
-
-.carlotta {
-    width:100%;
-    max-width:600px;
-    margin: 50px 90px 50px 50px;
-}
