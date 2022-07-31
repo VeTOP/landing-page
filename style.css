@@ -71,7 +71,7 @@ h1 {
 
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
@@ -161,6 +161,21 @@ h2 {
 }
 
 .box-4 {
-    padding: 0px 300px 0px 300px;
+    padding: 0px 300px 50px 300px;
     background-color: pink;
+}
+
+.fourth {
+    background-color: antiquewhite;
+    padding: 50px 50px 100px 50px;
+}
+
+.box-5 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    padding: 20px 100px 20px 100px;
+    max-width: 70%;
+    margin: auto;
+    border-radius: 20px;
 }
